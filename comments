@@ -6,5 +6,10 @@
 2. Second commit
 
 1) Добавлены permissions для наших представлений
-2) В settings добавлен DEFAULT_PERMISSION_CLASSES опредяющей общий доступ к API, по дефолту AllowAny, у нас поставлен IsAuthenticated
-т.е. только авторизовынным пользователям
+2) В settings добавлен DEFAULT_PERMISSION_CLASSES опредяющей общий доступ к API, по дефолту AllowAny,
+у нас поставлен IsAuthenticated т.е. только авторизовынным пользователям
+
+3. Third commit
+
+1) Установлена библиотека djoser для аутентификации по токенам
+2) Произведена проверка на возможность аутентификации по токенам
